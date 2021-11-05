@@ -1,0 +1,31 @@
+{
+  "name": "rollup-starter-app",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/preset-env": "^7.4.5",
+    "chokidar": "^3.3.0",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.12.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "serve": "^11.2.0",
+    "waves-loaders": "^0.1.5",
+    "waves-masters": "^1.2.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "npm-run-all --parallel start watch",
+    "start": "serve public"
+  }
+}
