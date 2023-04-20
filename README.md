@@ -1,38 +1,59 @@
-# UNION- Synthesizer
+# UNION Synthesizer
 
-> A synthesizer in the crowd with webaudio.
+UNION Synthesizer is a web-based FM synthesizer that allows users to experiment with sound design and learn about frequency modulation (FM) synthesis. The synthesizer is built with [p5js](https://p5js.org/) and includes adjustable frequency and amplitude modulation, reverb and delay effects, and a logarithmic Fast Fourier Transform (FFT) visualization for analyzing the spectrum of the generated sounds.
 
-This project aims to quickly deploy an FM synthesizer in a master class to explain its concept.
+![AppImage.jpg]
 
-The synthesizer is coded in web-audio and is integrated in a web server. The user only has to connect to a server via his mobile phone in order to access to the FM synthesizer. The sound is generated directly by the smart-phone.
+## Introduction
 
-This synthesizer can also be used to play several participants simultaneously. 
+FM synthesis is a powerful technique used in electronic music to create a wide range of sounds, from bell-like tones to complex textures. However, it can be difficult to understand and master. UNION Synthesizer aims to make FM synthesis more accessible and approachable by providing a user-friendly interface and easy-to-use controls.
 
-<center><img src="./AppImage.jpeg" width="350"></center>
+The synthesizer can be accessed via a web server on a smartphone, making it easy to use and experiment with wherever you are. Simply connect to the web server using the given IP address and port number, and start creating sounds!
 
-## Overview
+## Features
 
-This synthesizer is made with [p5js](https://p5js.org/). It is a simple **FM** synthesizer with full control through a **reverb** and **feedback**. The interface consists of two parts, an upper part to control the synthesizer and a lower part to display the spectrum logarithmically.
+- **FM synthesis:** Adjust the frequency and amplitude modulation of the generated sounds using sliders. This allows you to create a wide range of tones and textures, from simple sine waves to complex, evolving sounds.
+- **Reverb and delay effects:** Add depth and space to your sounds with adjustable reverb and delay effects. This can help create immersive soundscapes and give your sounds a professional, polished feel.
+- **FFT visualization:** The logarithmic FFT visualization allows you to see the frequency spectrum of the generated sounds in real-time. This can help you better understand the relationship between the different frequency components and how they contribute to the overall sound.
 
-## Install and setup
+## Getting Started
 
-In order to get it run you just have to enter this command in your terminal.
-`cd  src_union`
-`npm install`
-`npm run dev`
+To use UNION Synthesizer, follow these steps:
 
-Then connect your smart-phone to the given IP. (by `npm run dev`)
+1. Clone the repository:
 
-## Getting started
+```sh
+git clone https://github.com/fouVReaux/UNION.git
+```
 
-- Clone the repository :
+2. Navigate to the `src_union` directory:
 
-  `git clone https://github.com/fouVReaux/UNION.git `
+```sh
+cd src_union
+```
 
-- go to the `src_union` directory : `cd src_union`
-- run the `npm install` command
-- run the `npm run dev`
+3. Install the necessary dependencies:
+
+```sh
+npm install
+```
+
+4. Start the web server:
+
+```sh
+npm run dev
+```
+
+5. Connect your smartphone to the given IP address and port number to access the synthesizer.
 
 ## License
 
-[MIT](LICENSE)
+UNION Synthesizer is licensed under the MIT License. See the `LICENSE` file for more information.
+
+## Credits
+
+UNION Synthesizer was created by [Your Name] using [p5js](https://p5js.org/).
+
+## Contributing
+
+If you'd like to contribute to UNION Synthesizer, please fork the repository and submit a pull request.
