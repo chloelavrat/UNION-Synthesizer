@@ -23,7 +23,7 @@ To use UNION Synthesizer, follow these steps:
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/fouVReaux/UNION.git
+git clone https://github.com/azerty-labs/UNION-Synthesizer.git
 ```
 
 2. Navigate to the `src_union` directory:
