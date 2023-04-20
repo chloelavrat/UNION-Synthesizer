@@ -2,7 +2,7 @@
 
 UNION Synthesizer is a web-based FM synthesizer that allows users to experiment with sound design and learn about frequency modulation (FM) synthesis. The synthesizer is built with [p5js](https://p5js.org/) and includes adjustable frequency and amplitude modulation, reverb and delay effects, and a logarithmic Fast Fourier Transform (FFT) visualization for analyzing the spectrum of the generated sounds.
 
-![AppImage.jpg]
+![AppImage](./AppImage.jpg)
 
 ## Introduction
 
