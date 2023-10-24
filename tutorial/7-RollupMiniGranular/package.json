@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
-    "serve": "^11.2.0",
+    "serve": "^14.2.1",
     "waves-loaders": "^0.1.5",
     "waves-masters": "^1.2.1"
   },
