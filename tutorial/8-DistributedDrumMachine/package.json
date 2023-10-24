@@ -29,7 +29,7 @@
     "@soundworks/service-platform": "0.0.1-alpha.1",
     "@soundworks/service-sync": "0.0.1-alpha.3",
     "@wessberg/pointer-events": "^1.0.9",
-    "json5": "^2.1.0",
+    "json5": "^2.2.2",
     "lit-element": "^2.2.1",
     "lit-html": "^1.1.2",
     "serve-static": "^1.14.1",
