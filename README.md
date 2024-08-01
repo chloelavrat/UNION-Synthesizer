@@ -29,28 +29,27 @@ The synthesizer can be accessed via a web server on a smartphone, making it easy
 - **Reverb and delay effects:** Add depth and space to your sounds with adjustable reverb and delay effects. This can help create immersive soundscapes and give your sounds a professional, polished feel.
 - **FFT visualization:** The logarithmic FFT visualization allows you to see the frequency spectrum of the generated sounds in real-time. This can help you better understand the relationship between the different frequency components and how they contribute to the overall sound.
 
-## Getting Started
+## Run app locally
+If you want to run the **UNION Synthesizer** app locally. Multiple solution are possible :
 
-To use **UNION Synthesizer**, follow these steps:
+1. **Run the app directly using node**
 
-1. **Clone the repository:**
+    Clone the repository
+
     ```sh
     git clone https://github.com/chloelavrat/UNION-Synthesizer.git
     cd ./UNION-Synthesizer/src
     ```
 
-3. **Install the necessary dependencies:**
+    Install the necessary dependencies
     ```sh
     npm install
     ```
 
-4. **Start the web server:**
+    Start the web server
     ```sh
     npm run dev
     ```
-
-5. **Have fun with FM:**
-    
     Go to another device on the same network and connect it to the network address and port. Then enjoy FM.
     ```sh
     ┌──────────────────────────────────────────────────┐
@@ -64,6 +63,23 @@ To use **UNION Synthesizer**, follow these steps:
     │                                                  │
     └──────────────────────────────────────────────────┘
     ```
+
+2. **Run the app using docker**
+
+    Clone the repository
+    ```sh
+    git clone https://github.com/chloelavrat/UNION-Synthesizer.git
+    cd ./UNION-Synthesizer/
+    ```
+    Build the `union-synth` docker container:
+    ```
+    docker build -t union-synth .
+    ````
+    Run the container at a specified port (here 8501) 
+    ```
+    docker run -p 3000:3000 union-synth
+    ```
+    Go to your web browser and access [localhost:3000](http://localhost:3000)
 
 ## Contributing
 
