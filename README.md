@@ -38,9 +38,9 @@ To use **UNION Synthesizer**, follow these steps:
     git clone https://github.com/chloelavrat/UNION-Synthesizer.git
     ```
 
-2. Navigate to the `src_union` directory:
+2. Navigate to the `src` directory:
     ```sh
-    cd src_union
+    cd ./UNION-Synthesizer/src
     ```
 
 3. Install the necessary dependencies:
