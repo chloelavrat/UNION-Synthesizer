@@ -180,12 +180,12 @@ var controler = function (can2) {
 		can2.background(100);
 		can2.fill(1000);
 		can2.textSize(20);
-		can2.text('FM Synth made with p5.js', x - 400, 20);
-		can2.text('1. press play', x - 400, 50);
-		can2.text('2. play with the sliders', x - 400, 20 * 4);
+		can2.text('FM synthesizer made with p5.js', 20, 23);
+		can2.text('1. press play', 20, 50);
+		can2.text('2. play with the sliders', 20, 20 * 4);
 		can2.text(
-			'3. have fun - keep a finger on the volume ;)',
-			x - 400,
+			'3. have fun and watch the volume',
+			20,
 			20 * 5.5
 		);
 
