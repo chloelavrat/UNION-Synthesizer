@@ -33,27 +33,37 @@ The synthesizer can be accessed via a web server on a smartphone, making it easy
 
 To use **UNION Synthesizer**, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository:**
     ```sh
     git clone https://github.com/chloelavrat/UNION-Synthesizer.git
-    ```
-
-2. Navigate to the `src` directory:
-    ```sh
     cd ./UNION-Synthesizer/src
     ```
 
-3. Install the necessary dependencies:
+3. **Install the necessary dependencies:**
     ```sh
     npm install
     ```
 
-4. Start the web server:
+4. **Start the web server:**
     ```sh
     npm run dev
     ```
 
-5. Connect your smartphone to the given IP address and port number to access the synthesizer.
+5. **Have fun with FM:**
+    
+    Go to another device on the same network and connect it to the network address and port. Then enjoy FM.
+    ```sh
+    ┌──────────────────────────────────────────────────┐
+    │                                                  │
+    │   Serving!                                       │
+    │                                                  │
+    │   - Local:    http://localhost:3000              │
+    │   - Network:  http://192.168.1.16:3000           │
+    │                                                  │
+    │   Copied local address to clipboard!             │
+    │                                                  │
+    └──────────────────────────────────────────────────┘
+    ```
 
 ## Contributing
 
