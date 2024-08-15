@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="" alt="AppImage" style="border-radius: 17px; width: 100%; max-width: 800px; height: auto;">
+  <img src="assets/Readme.png" alt="AppImage" style="border-radius: 17px; width: 100%; max-width: 800px; height: auto;">
 </div>
 <h3 align="center">
   <b><a href="#getting-started">Get Started</a></b>
